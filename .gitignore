@@ -1,0 +1,6 @@
+*.log
+libs
+x64
+x86
+.vs
+.git
