@@ -224,8 +224,8 @@ struct APawn : AActor {
 	class APlayerState* PlayerState; // 0x250(0x08)
 	char pad_0001[0x10]; // 0x258 (0x10)
 	class AController* Controller; // 0x268(0x08)
-	char pad_0002[0x20];// 0x270 (0x20)
-	class USkeletalMeshComponent* Mesh; // 0x290 (0x08) 
+	char pad_0002[0x28];// 0x270 (0x20)
+	class USkeletalMeshComponent* Mesh; // 0x298 (0x08) 
 
 	int8_t GetPlayerTeam();
 };
