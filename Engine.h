@@ -264,8 +264,8 @@ struct AEscapeDoor : AActor {
 // Class DeadByDaylight.Totem
 // Size: 0x450 (Inherited: 0x328)
 struct ATotem : AActor {
-	char pad_0000[0x220]; // 0x148 (0x108)
-	int8_t _totemState; // 0x368(0x01)
+	char pad_0000[0x230]; // 0x148 (0x108)
+	int8_t _totemState; // 0x378(0x01)
 };
 
 // Class Engine.Level
